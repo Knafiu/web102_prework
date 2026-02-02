@@ -9,6 +9,26 @@ body {
     width: 50px;
 }
 
+.navbar {
+    margin-top: 10px;
+    padding: 10px;
+}
+  
+.navbar a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 18px; 
+    background-color: lightblue; 
+    
+    color: black; 
+    font-weight: bold; 
+    font-size: 16px; 
+}
+
+.navbar a:hover { 
+    background-color: #b6cce9; 
+}
+
 .header {
     display: flex;
     background-color: lightblue;
@@ -21,6 +41,11 @@ body {
 
 .stats-container {
     display: flex;
+    cursor: pointer;
+    
+}
+.stats-container:hover{
+    box-shadow : 0 0 30px;
 }
 
 .stats-card {

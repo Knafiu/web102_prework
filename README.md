@@ -1,32 +1,35 @@
-# WEB102 Prework - *Name of App Here*
+# WEB102 Prework - *Sea Monster's Website*
 
-Submitted by: **Your Name Here**
+Submitted by: **Khaleel Nafiu**
 
-**Name of your app** is a website for the company Sea Monster Crowdfunding that displays information about the games they have funded.
+**Sea Monster's Website** is a website for the company Sea Monster Crowdfunding that displays information about the games they have funded.
 
-Time spent: **X** hours spent in total
+Time spent: **7** hours spent in total
 
 ## Required Features
 
 The following **required** functionality is completed:
 
-* [ ] The introduction section explains the background of the company and how many games remain unfunded.
-* [ ] The Stats section includes information about the total contributions and dollars raised as well as the top two most funded games.
-* [ ] The Our Games section initially displays all games funded by Sea Monster Crowdfunding
-* [ ] The Our Games section has three buttons that allow the user to display only unfunded games, only funded games, or all games.
+* [X] The introduction section explains the background of the company and how many games remain unfunded.
+* [X] The Stats section includes information about the total contributions and dollars raised as well as the top two most funded games.
+* [X] The Our Games section initially displays all games funded by Sea Monster Crowdfunding
+* [X] The Our Games section has three buttons that allow the user to display only unfunded games, only funded games, or all games.
 
 The following **optional** features are implemented:
 
-* [ ] List anything else that you can get done to improve the app functionality!
+* [X] Nav Bar with a button that takes users to the section where games are displayed.
+* [X] Search bar for users to look up games by their names.
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented features:
 
+https://www.loom.com/share/d8c343b4bb05427085508bba58421072
+
 <img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  
+Video created with Loom  
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
 [ScreenToGif](https://www.screentogif.com/) for Windows
@@ -35,6 +38,8 @@ GIF created with ...
 ## Notes
 
 Describe any challenges encountered while building the app.
+
+One of the main challenges I encountered while building this app was debugging issues related to DOM manipulation and event handling. At times, certain elements were not rendering or responding as expected because the JavaScript was running before the DOM had fully loaded or because an element ID was missing or mismatched. This led to errors that stopped the rest of the script from executing, which required careful use of console logging and browser developer tools to diagnose.
 
 ## License
 
